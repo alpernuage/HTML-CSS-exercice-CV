@@ -1,0 +1,139 @@
+body {
+  font-size: 120%;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 400;
+  background: rgb(136, 136, 136);
+  background: linear-gradient(90deg, rgba(136, 136, 136, 1) 0%, rgba(147, 147, 147, 1) 0%, rgba(181, 181, 181, 0.9163865375251663) 0%, rgba(211, 211, 211, 1) 41%, rgba(239, 239, 239, 1) 78%, rgba(239, 239, 239, 1) 100%);
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header, article {
+  padding: 15px 25px;
+}
+
+header {
+  text-align: center;
+  /* background: url("../image/background_greek-vase.png") fixed center cover; */
+  background-image: url("../image/background_greek-vase.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  /* padding-left: 0;
+  padding-right: 0; */
+  margin-bottom: 30px
+    /* !important; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Biryani', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #182e3f;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:hover, a:active, a:focus, a:visited {
+  color: #f6ae2d;
+}
+
+article, nav {
+  background-color: #fbfcf7;
+}
+
+section {
+  width: 68%;
+  margin-right: 2%;
+}
+
+aside {
+  width: 30%;
+}
+
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+aside, section {
+  float: left;
+}
+
+footer {
+  background-color: #0a3332;
+}
+
+nav {
+  text-align: center;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  margin: 0;
+}
+
+header img {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+section img {
+  width: 15rem;
+  float: right;
+}
+
+nav, header, article {
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}

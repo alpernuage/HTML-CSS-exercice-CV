@@ -1,0 +1,11 @@
+/* Smartphones */
+@media (max-device-width:767px) {
+  .container, section, aside {
+    width: 100%;
+  }
+
+  /* .container {
+    padding: 0 10px;
+    margin: 0 auto; */
+  }
+}
